@@ -5,6 +5,7 @@ html {
 .up {
   display: flex;
   justify-content: space-between;
+  padding-right: 15px;
 }
 .up img {
   justify-content: flex-start;
@@ -13,7 +14,6 @@ html {
   display: flex;
   justify-content: flex-end;
   margin-left: -7px;
-  padding-right: 15px;
 }
 
 .navbar h3 {
@@ -35,6 +35,7 @@ input {
   width: 250px;
   height: 50px;
   margin-top: 18px;
+  background-color: none;
 }
 
 .main {
@@ -125,4 +126,21 @@ h4 {
 p {
   display: flex;
   justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  background-color: rgba(28, 35, 228, 0.733);
+  width: 800px;
+  height: 100px;
+}
+
+footer {
+  margin-top: 30px;
+}
+footer p {
+  color: aliceblue;
+  margin: 0%;
 }
